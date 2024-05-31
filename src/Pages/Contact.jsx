@@ -14,8 +14,6 @@ export function Contact () {
         </Container>
     
         </>  
-        
-            
-        
+  
     )
 }

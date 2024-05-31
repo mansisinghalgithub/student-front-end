@@ -11,7 +11,7 @@ export function LoginPage () {
             <h1>Login</h1>
              
         </Container>
-        <Container className="border border-dark p-4 bg-secondary" style={{ width:'400px', height: '250px' }} >
+        <Container className="border border-dark p-4 h-50 bg-secondary" style={{ width:'500px', height: '350px' }} >
            <LoginForm/>
 
         </Container>

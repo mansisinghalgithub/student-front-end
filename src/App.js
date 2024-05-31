@@ -29,8 +29,9 @@ function App() {
     {showNavAndFooter && <Navigation/>}
     <Routes>
     <Route  path='/' element={< LoginPage />} />
+    <Route  path='/signup' element={< SignUpPage />} />
     <Route element = {<PrivateRoute/>}>
-    <Route  path='/home' element={< About />} />
+    <Route  path='/home' element={< Home />} />
     <Route  path='/about' element={< About />} />
       <Route  path='/contact' element={< Contact />} />
       <Route  path='/feedback' element={< Feedback />} />
@@ -53,26 +54,3 @@ export default function Main() {
       </BrowserRouter>
   );
 }
-    
-    // <Navigation/>
-    //   <Routes>
-      
-      
-      
-
-    //   </Routes>
-    //   <Footer/>
-    // </BrowserRouter>
-
-
-    // <div className="App">
-    //   <Navigation/>
-    //   <Home/>
-      
-
-    // </div>
-//   );
-
-// }
-
-// export default App;
